@@ -1,0 +1,42 @@
+uso: git [--verion(versão)] [help(ajuda)] [-c name=value (nome=valor)]
+	 [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+	 [-p | --paginate | -- no-pager] [--no-replace-objects] [--bare]
+	 [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+	 <command> [<args>]
+
+Estes são os comandos do git comuns usados em diversas situações:
+
+iniciar uma área de trabalho
+	clone - clonar um repositório em um novo diretório
+	init - criar um repositório git vazio ou reinicializar um existente
+
+Trabalhar com versão
+	add - adicionar conteúdo do arquivo para o índice
+	mv - mover ou renomear um arquivo, um diretório ou um link simbólico
+	reset - redefinir HEAD atual para o estado especificado
+	rm - remover os arquivos da árvore de trabalho e do índice
+
+Examinar histórico e estado
+	bisect - usar a pesquisa binária para encontrar um commit que introduziu
+		 um bug
+	grep - linhas de impressão que correspondem um padrão
+	log - mostrar registro de commit's
+	show - mostrar vários tipos de objectos
+	status - mostrar o estado da árvore de trabalho
+
+grow, marcar e ajustar o seu histórico de comandos
+	branch - listar, criar ou excluir ramos
+	checkout - alternar ramos de árvore de trabalho ou restaurar arquivos
+	commit - alterações para o repositório de registro
+	diff - mostrar alterações de commits e etc
+	merge - juntar dois ou mais ramos de desenvolvimento a árvore de trabalho
+	rebase -  replicar commit em outro ramo
+	tag - criar, listar, excluir ou verificar objeto com tag GPG
+
+colaboradores
+	fetch - baixar objetos e refêrencias de outro repositório
+	pull - buscar um ramo ou repositório local
+	push - atualização remota de objetos e referencias associadas
+
+
+Ass.: HelpGo
